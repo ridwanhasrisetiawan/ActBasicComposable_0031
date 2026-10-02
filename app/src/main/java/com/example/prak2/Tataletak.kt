@@ -39,3 +39,15 @@ fun TataletakColumn(modifier: Modifier = Modifier) {
         Text(text = "No. Telepon")
     }
 }
+@Composable
+fun TataletakRow(modifier: Modifier = Modifier) {
+    Row(
+        modifier = modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.SpaceEvenly
+    ) {
+        Text(text = "Home")
+        Text(text = "Profile")
+        Text(text = "Produk")
+        Text(text = "Kontak")
+    }
+}
