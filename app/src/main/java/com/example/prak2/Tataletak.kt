@@ -256,3 +256,15 @@ fun DetailStatus() {
         )
     }
 }
+@Composable
+fun DetailAlamat() {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(20.dp)
+    ) {
+        Text(text = "Alamat")
+        Text(text = "Yogyakarta")
+        Text(text = "Indonesia")
+    }
+}
