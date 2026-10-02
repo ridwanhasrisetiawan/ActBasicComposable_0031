@@ -102,6 +102,22 @@ fun TugasLogin() {
             Spacer(
                 modifier = Modifier.height(20.dp)
             )
+            Image(
+                painter = painterResource(
+                    id = R.drawable.foto_login
+                ),
+                contentDescription = "Foto Profil",
+                modifier = Modifier
+                    .size(290.dp)
+                    .clip(CircleShape)
+                    .border(
+                        width = 3.dp,
+                        color = Color.White,
+                        shape = CircleShape
+                    ),
+                contentScale = ContentScale.Crop
+            )
+        }
 
     }
 }
