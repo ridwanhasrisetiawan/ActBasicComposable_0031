@@ -87,3 +87,23 @@ fun TataletakColumnRow(modifier: Modifier = Modifier) {
         }
     }
 }
+@Composable
+fun TataletakRowColumn(modifier: Modifier = Modifier) {
+    Row(
+        modifier = modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.SpaceEvenly
+    ) {
+
+        Column {
+            Text(text = "Nama")
+            Text(text = "Ridwan")
+            Text(text = "Mahasiswa")
+        }
+
+        Column {
+            Text(text = "Kelas")
+            Text(text = "A")
+            Text(text = "UMY")
+        }
+    }
+}
