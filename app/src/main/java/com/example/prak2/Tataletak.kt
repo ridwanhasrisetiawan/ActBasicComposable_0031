@@ -281,3 +281,34 @@ fun DetailHobby() {
         Text(text = "Cycling")
     }
 }
+@Composable
+fun DetailProfil(modifier: Modifier = Modifier) {
+
+    Box(
+        modifier = modifier
+            .fillMaxWidth()
+            .height(200.dp)
+            .background(Color.LightGray),
+        contentAlignment = Alignment.Center
+    ) {
+
+        Column(
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+
+            Text(
+                text = "PROFIL MAHASISWA",
+                fontSize = 25.sp,
+                fontWeight = FontWeight.Bold
+            )
+
+            Spacer(
+                modifier = Modifier.height(10.dp)
+            )
+
+            Text(text = "Ridwan Hasri Setiawan")
+            Text(text = "20240140031")
+            Text(text = "Kelas A")
+        }
+    }
+}
