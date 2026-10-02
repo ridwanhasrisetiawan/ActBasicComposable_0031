@@ -224,3 +224,19 @@ fun DetailProduk() {
         Text(text = "Kategori: Elektronik")
     }
 }
+@Composable
+fun DetailHarga() {
+    Box(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(100.dp)
+            .background(Color.Green),
+        contentAlignment = Alignment.Center
+    ) {
+        Text(
+            text = "Harga Rp10.000.000",
+            fontSize = 25.sp,
+            fontWeight = FontWeight.Bold
+        )
+    }
+}
