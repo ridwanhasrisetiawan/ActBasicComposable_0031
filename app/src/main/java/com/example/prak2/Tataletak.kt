@@ -268,3 +268,16 @@ fun DetailAlamat() {
         Text(text = "Indonesia")
     }
 }
+@Composable
+fun DetailHobby() {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(20.dp),
+        horizontalArrangement = Arrangement.SpaceEvenly
+    ) {
+        Text(text = "Basket")
+        Text(text = "Gaming")
+        Text(text = "Cycling")
+    }
+}
