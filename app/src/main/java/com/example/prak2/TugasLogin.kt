@@ -46,6 +46,12 @@ fun TugasLogin() {
             Spacer(
                 modifier = Modifier.height(45.dp)
             )
+            Text(
+                text = "Login",
+                fontSize = 28.sp,
+                color = Color.Blue,
+                fontWeight = FontWeight.Bold
+            )
 
     }
 }
