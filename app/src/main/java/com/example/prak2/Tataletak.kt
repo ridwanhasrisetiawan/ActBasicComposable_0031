@@ -51,3 +51,14 @@ fun TataletakRow(modifier: Modifier = Modifier) {
         Text(text = "Kontak")
     }
 }
+@Composable
+fun TataletakBox(modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier
+            .fillMaxHeight()
+            .fillMaxWidth(),
+        contentAlignment = Alignment.Center
+    ) {
+        Text(text = "Selamat Datang")
+    }
+}
