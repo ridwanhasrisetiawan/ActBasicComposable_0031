@@ -61,6 +61,19 @@ fun TugasLogin() {
             Spacer(
                 modifier = Modifier.height(45.dp)
             )
+            Image(
+                painter = painterResource(
+                    id = R.drawable.logo_login
+                ),
+                contentDescription = "Logo UMY",
+                modifier = Modifier.size(120.dp),
+                contentScale = ContentScale.Fit
+            )
+
+            // Jarak setelah logo
+            Spacer(
+                modifier = Modifier.height(35.dp)
+            )
 
     }
 }
