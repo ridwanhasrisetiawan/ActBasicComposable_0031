@@ -36,6 +36,16 @@ fun TugasLogin() {
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
         )
+        Column(
+            modifier = Modifier.fillMaxSize(),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Top
+        ) {
+
+            // Jarak dari atas
+            Spacer(
+                modifier = Modifier.height(45.dp)
+            )
 
     }
 }
