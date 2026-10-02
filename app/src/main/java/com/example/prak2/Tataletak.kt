@@ -199,3 +199,16 @@ fun DetailKampus() {
         Text(text = "Fakultas Teknik")
     }
 }
+@Composable
+fun DetailKontak() {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(20.dp),
+        horizontalArrangement = Arrangement.SpaceEvenly
+    ) {
+        Text(text = "Email")
+        Text(text = "WhatsApp")
+        Text(text = "Instagram")
+    }
+}
