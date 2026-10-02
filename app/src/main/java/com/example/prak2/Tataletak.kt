@@ -187,3 +187,15 @@ fun DetailMahasiswa() {
         Text(text = "Kelas: A")
     }
 }
+@Composable
+fun DetailKampus() {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(20.dp)
+    ) {
+        Text(text = "Universitas Muhammadiyah Yogyakarta")
+        Text(text = "Program Studi Informatika")
+        Text(text = "Fakultas Teknik")
+    }
+}
