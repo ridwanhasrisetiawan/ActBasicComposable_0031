@@ -107,3 +107,71 @@ fun TataletakRowColumn(modifier: Modifier = Modifier) {
         }
     }
 }
+@Composable
+fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
+
+    val gambar = painterResource(
+        id = R.drawable.ganteng
+    )
+
+    Column {
+
+        Box(
+            modifier = modifier
+                .fillMaxWidth()
+                .height(110.dp)
+                .background(Color.Yellow),
+            contentAlignment = Alignment.Center
+        ) {
+
+            Column {
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
+                    Text(text = "Nama")
+                    Text(text = "Kelas")
+                    Text(text = "NIM")
+                }
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceEvenly
+                ) {
+                    Text(text = "Ridwan")
+                    Text(text = "A")
+                    Text(text = "20240140031")
+                }
+            }
+        }
+
+        Spacer(
+            modifier = Modifier.height(10.dp)
+        )
+
+        Box(
+            modifier = modifier
+                .fillMaxWidth()
+                .height(300.dp)
+                .background(Color.Cyan),
+            contentAlignment = Alignment.Center
+        ) {
+
+            Image(
+                painter = gambar,
+                contentDescription = "Foto Profil",
+                contentScale = ContentScale.Fit
+            )
+
+            Text(
+                text = "Profil Saya",
+                fontSize = 40.sp,
+                color = Color.Red,
+                fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Cursive,
+                modifier = Modifier.align(Alignment.Center)
+            )
+        }
+    }
+}
