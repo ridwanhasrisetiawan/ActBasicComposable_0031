@@ -212,3 +212,15 @@ fun DetailKontak() {
         Text(text = "Instagram")
     }
 }
+@Composable
+fun DetailProduk() {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(20.dp)
+    ) {
+        Text(text = "Nama Produk: Laptop")
+        Text(text = "Harga: Rp10.000.000")
+        Text(text = "Kategori: Elektronik")
+    }
+}
