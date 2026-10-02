@@ -175,3 +175,15 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
         }
     }
 }
+@Composable
+fun DetailMahasiswa() {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(20.dp)
+    ) {
+        Text(text = "Nama Lengkap: Ridwan")
+        Text(text = "NIM: 20240140031")
+        Text(text = "Kelas: A")
+    }
+}
