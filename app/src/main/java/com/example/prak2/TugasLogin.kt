@@ -80,6 +80,17 @@ fun TugasLogin() {
                 color = Color.Red,
                 fontWeight = FontWeight.Bold
             )
+            Text(
+                text = "Ridwan Hasri Setiawan",
+                fontSize = 16.sp,
+                color = Color.Blue,
+                fontWeight = FontWeight.Bold
+            )
+
+            // Jarak
+            Spacer(
+                modifier = Modifier.height(8.dp)
+            )
 
     }
 }
