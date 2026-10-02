@@ -240,3 +240,19 @@ fun DetailHarga() {
         )
     }
 }
+@Composable
+fun DetailStatus() {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(20.dp),
+        horizontalArrangement = Arrangement.SpaceEvenly
+    ) {
+        Text(text = "Status:")
+
+        Text(
+            text = "Aktif",
+            fontWeight = FontWeight.Bold
+        )
+    }
+}
