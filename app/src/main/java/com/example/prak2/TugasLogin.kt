@@ -91,6 +91,17 @@ fun TugasLogin() {
             Spacer(
                 modifier = Modifier.height(8.dp)
             )
+            Text(
+                text = "20240140031",
+                fontSize = 20.sp,
+                color = Color.Black,
+                fontWeight = FontWeight.Bold
+            )
+
+            // Jarak sebelum foto
+            Spacer(
+                modifier = Modifier.height(20.dp)
+            )
 
     }
 }
